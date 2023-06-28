@@ -1,0 +1,303 @@
+[
+    {
+        
+        "image":"/images/honor.jpg",
+        "name":"Honor 2",
+        "Brand":"Honor",
+        "storage":"128GB",
+        "color":"Black",
+        "rating":"(9303)",
+        "star_rating":5,
+        "original":212,
+        "discount":9,
+        "new_label":1,
+        "forsale":0,
+        "id":1
+
+
+            
+        },
+    
+        {
+           
+            "image":"/images/lenovo.jpg",
+            "name":"Lenovo 1",
+            "Brand":"Lenovo",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":4,
+            "original":210,
+            "discount":60,
+            "new_label":0,
+            "forsale":1,
+            "id":2
+
+            },
+
+            
+        {
+             
+            
+            "image":"/images/meizu.jpg",
+            "name":"Meizu 2",
+            "Brand":"Meizu",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":3,
+            "original":279,
+            "discount":10,
+            "new_label":0,
+            "forsale":1,
+            "id":3
+                
+            },
+
+            
+        {
+           
+            "image":"/images/apple.jpg",
+            "name":"Apple 14",
+            "Brand":"Apple",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":4,
+            "original":149,
+            "discount":10,
+            "new_label":1,
+            "forsale":1,
+            "id":4
+                
+            },
+
+            
+        {
+           
+            "image":"/images/LG.jpg",
+            "name":"LG 1",
+            "Brand":"LG",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":3,
+            "original":289,
+            "discount":20,
+            "new_label":1,
+            "forsale":1,
+            "id":5
+                
+                
+            },
+
+            
+        {
+            
+            "image":"/images/asus.jpg",
+            "name":"Asus 2",
+            "Brand":"Asus",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":2,
+            "original":199,
+            "discount":50,
+            "new_label":1,
+            "forsale":0,
+            "id":6
+                
+            },
+
+            
+        {
+            
+
+            
+           
+            "image":"/images/mobile.jpg",
+            "name":"Mi Mix 1",
+            "Brand":"Xiaomi",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":3,
+            "original":159,
+            "discount":30,
+            "new_label":1,
+             "forsale":0,
+             "id":7
+
+           
+                
+            },
+
+            
+        {
+           
+            "image":"/images/lenovo.jpg",
+            "name":"Lenovo 2",
+            "Brand":"Lenovo",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":5,
+            "original":180,
+            "discount":20,
+            "new_label":1,
+            "forsale":1,
+            "id":8
+                
+            },
+
+            
+        {
+            
+            "image":"/images/sony.jpg",
+            "name":"Sony 1",
+            "storage":"128GB",
+            "Brand":"Sony",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":3,
+            "original":123,
+            "discount":30,
+            "new_label":1,
+            "forsale":0,
+            "id":9
+                
+            },
+
+            
+        {
+           
+            "image":"/images/sony.jpg",
+            "name":"Sony 2",
+            "Brand":"Sony",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":2,
+            "original":129,
+            "discount":20,
+            "new_label":1,
+            "forsale":0,
+            "id":10
+                
+            },
+
+
+            
+        {
+
+             
+            "image":"/images/asus.jpg",
+            "name":"Asus 1",
+            "Brand":"Asus",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":5,
+            "original":119,
+            "discount":30,
+            "new_label":0,
+            "forsale":0,
+            "id":11
+           
+            },
+
+            
+        {
+           
+            "image":"/images/LG.jpg",
+            "name":"LG 2",
+            "Brand":"LG",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":4,
+            "original":169,
+            "discount":32,
+            "new_label":1,
+            "forsale":0,
+            "id":12
+               
+            },
+
+            
+        {
+            
+            "image":"/images/honor.jpg",
+            "name":"Honor 1",
+            "Brand":"Honor",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":2,
+            "original":116,
+            "discount":10,
+            "new_label":0,
+            "forsale":0,
+            "id":13
+                
+            },
+
+            
+        {
+           
+
+        "image":"/images/mobile.jpg",
+        "Brand":"Xiaomi",
+        "name":"Mi Mix 2",
+        "storage":"128GB",
+        "color":"Black",
+        "rating":"(9303)",
+        "star_rating":2,
+        "original":189,
+        "discount":30,
+        "new_label":1,
+        "forsale":1,
+        "id":14
+                
+            },
+
+            
+        {
+            
+            "image":"/images/meizu.jpg",
+            "name":"Meizu 1",
+            "Brand":"Meizu",
+            "storage":"128GB",
+            "color":"Black",
+            "rating":"(9303)",
+            "star_rating":4,
+            "original":179,
+            "discount":30,
+            "new_label":0,
+            "forsale":1,
+            "id":15
+                
+            },
+
+            
+            {
+            
+            
+            
+                "image":"/images/apple.jpg",
+                "name":"Apple 13",
+                "Brand":"Apple",
+                "storage":"128GB",
+                "color":"Black",
+                "rating":"(9303)",
+                "star_rating":5,
+                "original":149,
+                "discount":20,
+                "new_label":0,
+                "forsale":1,
+                "id":16
+
+
+                }
+            
+]

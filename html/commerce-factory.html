@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce_factory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="../CSS/commerce-factory.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <!-------------------------- user navigaion in header section---------------- -->
+        <div class="navbar">
+            <nav>
+
+                <div class="user-navbar">
+
+                    <span class="contact transform"><a href="#"><i class="fa-solid fa-phone"></i>need help ?</a></span>
+                    <div>
+                        <ul class="class-flex">
+                            <li class="wishlist"> <a href="#"><span class="wish transform">wishlist</span>
+                                    <i class="fa-sharp  inc fa-regular fa-heart"><span class="wish-in">0</span></i></a>
+                            </li>
+                            <li class="cart"><a href="#"><span class="wish transform">cart</span>
+                                    <i class="fa-sharp fa-solid fa-bag-shopping">
+                                        <span class="cart-in">0</span></i></a>
+                            </li>
+                            <li class="profile"><a href="#"><i class="fa-solid fa-user"></i>
+                                    <span class="sign-in">Sign in</span>
+                                    <span class="wish transform">manikanta killana</span>
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+
+
+        <!-------------------------- sub navigaion in header section ------------------>
+        <div class="navigation">
+            <div class="sub-navigation  class-flex">
+                <div class="logo">
+                    <img src="../images/Kraya_logo.svg" alt="logo">
+                </div>
+                <form autocomplete="off">
+                <div class="search-bar">
+                        <input type="text" id="search" placeholder="Search for products"><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </form>
+                <nav class="products">
+                    <ul class="class-flex transform">
+                        <li><a href="#">phone</a></li>
+                        <li><a href="#">television</a></li>
+                        <li><a href="#">refrigerator</a></li>
+                        <li><a href="#">laptop</a></li>
+                        <li><a href="#">washing machine</a></li>
+                        <li><a href="#">downloads</a></li>
+                    </ul>
+                </nav>
+                <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="sortby-filters class-flex">
+            <div id="sort-by"><a href="#" title="sort-by" role="button"><i
+                        class="fa-solid fa-arrow-down-wide-short"></i>SORT BY</a></div>
+            <div id="filters"><a href="#" role="button"><i class="fa-solid fa-filter"></i>Filters</a>
+            </div>
+        </div>
+
+        <div class="results class-flex">16 results</div>
+
+        <div class="home class-flex">
+            <span class="transform">home/mobiles</span>
+            <div id="mobile-count">loading</div>
+            <div class="sort-by-price">
+                <span>Sort By</span>
+                <a href="#" id="relevant">Ratings</a>
+                <a href="#" id="price">Price low-high</a>
+                <a href="#" id="new-first">Newest First</a>
+            </div>
+
+        </div>
+
+
+        <!---------------------- filters section -------------------------->
+        <div class="container class-flex">
+
+            <aside class="filter">
+                <div class="filter-top class-flex transform">
+                    <span>filters</span>
+                    <a href="#" id="filter-clear">clear all</a>
+                </div>
+                <div class="filter-body class-flex">
+                    <div class="price-wrapper">
+                        <div class="accordion"><span>Price</span></div>
+                        <div id="slider-range">
+
+                            <label class="price-range" for="amount">Price range:</label>
+                            <input type="text" id="amount">
+
+                        </div>
+                    </div>
+
+
+                    <div class="accordion"><span>Brand</span></div>
+                    <div class="mobile_filters">
+                        <form>
+                            <fieldset>
+                                <div><input type="checkbox" value="Asus" class="brand_name" id="Asus">
+                                    <label for="  Asus ">Asus</label>
+                                </div>
+
+                                <div><input type="checkbox" value="LG" class="brand_name" id="LG">
+                                    <label for="LG">LG</label>
+                                </div>
+
+
+                                <div><input type="checkbox" value="Apple" class="brand_name" id="Apple">
+                                    <label for="Apple">Apple</label>
+                                </div>
+
+                                <div><input type="checkbox" value="Sony" class="brand_name" id="Sony">
+                                    <label for="Sony">Sony</label>
+                                </div>
+
+
+                                <div><input type="checkbox" value="Lenovo" class="brand_name" id="Lenovo">
+                                    <label for="Lenovo">Lenovo</label>
+                                </div>
+
+                                <div><input type="checkbox" value="Honor" class="brand_name" id="Honor">
+                                    <label for="Honor">Honor</label>
+                                </div>
+
+
+                                <div><input type="checkbox" value="Xiaomi" class="brand_name" id="Xiaomi">
+                                    <label for="Xiaomi">Xiaomi</label>
+                                </div>
+
+                                <div><input type="checkbox" value="Meizu" class="brand_name" id="Meizu">
+                                    <label for="Meizu">Meizu</label>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <a href="#" id="show-more">SHOW MORE+</a>
+                    </div>
+
+                    <div class="accordion"><span>Battery Capacity</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Screen Size</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Ram</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Customer Ratings</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Camera</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Resolution Type</span></div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                    <div class="accordion"><span>Operating System</span> </div>
+                    <div class="lorem-ipsum">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime dolorem impedit
+                            quae error doloremque sunt commodi nam, ullam iste facere eveniet, esse illo perspiciatis,
+                            blanditiis nemo at pariatur. Ipsum?</p>
+                    </div>
+                </div>
+            </aside>
+            <div class="tiles-class class-flex" id="tiles">
+            </div>
+        </div>
+    </main>
+    <!-- ------------footer section ------------>
+    <footer>
+        <span><a href="#"><i class="fa-solid fa-angle-up"></i></a></span>
+        <div class="contact-information class-flex">
+            <div class="contact-mail class-flex">
+                <div class="contact-us  class-flex">
+                    <h4>let's stay in touch</h4>
+                    <h6>Get updates on sales specials and more</h6>
+                </div>
+                <div class="gmail class-flex">
+                    <form>
+                        <input type="email" class="email-address" placeholder="Email address">
+                        <input type="submit" class="subscribe transform" value="subscribe">
+                    </form>
+                </div>
+            </div>
+            <div class="social-media class-flex">
+                <h4>follow kraya.<i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-twitter"></i><i
+                        class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i></h4>
+                <h6>We want to hear from you</h6>
+            </div>
+
+        </div>
+
+        <div class="footer-nav class-flex">
+            <div class="about">
+
+                <h5>about</h5>
+                <nav>
+                    <div>
+                        <a href="#">About us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                        <a href="#">News</a>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="support">
+                <h5>support</h5>
+                <nav>
+                    <div>
+                        <a href="#">Payment</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Cancellation &amp; Returns</a>
+                        <a href="#">FAQs</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="policy">
+                <h5>policy</h5>
+                <nav>
+                    <div>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Intellectual Property</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Security</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="mail">
+                <h5>mail us</h5>
+                <h6>17187 N. Laurel Park Dr., Ste. 110</h6>
+                <h6> Livonia, MI 48152 USA</h6>
+            </div>
+          
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="module" src="/data.js"></script>
+</body>
+
+</html>
